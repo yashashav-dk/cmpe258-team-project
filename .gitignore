@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+logs/runs/
+logs/benchmark_events*.jsonl
+logs/benchmark_results*.jsonl
+logs/hard_multifile_results*.jsonl
+logs/oss_results*.jsonl
+logs/sanity_small_results.jsonl
+logs/run.jsonl
+dataset/cases/*/memory.json
+backdate_commits.py
